@@ -1,0 +1,101 @@
+form {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgb(101, 136, 137);
+}
+input {
+    margin: 10px 25px;
+    width: 350px;
+    border: none;
+    padding: 5px 0;
+    border-bottom: solid 1px rgb(3, 221, 255);
+    background : linear-gradient(
+        to bottom
+        rgba(255, 255, 255, 0) 96%,
+        rgb(3, 221, 255) 4%
+    );
+    background-position: -200px 0;
+    background-size: 100px 100%;
+    background-repeat: no-repeat;
+    color: #0e6252
+}
+
+button{
+    border: none;
+    background: rgb(48, 85, 90);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+
+.head2{
+    margin-left: 25px;
+}
+.nữ{
+    padding-left: 5px;
+    width: 50px;
+}
+@keyframes blink {
+    0% {
+        background-color: violet;
+    }
+    15% {
+        background-color: blueviolet;
+    }    
+    30% {
+        background-color: rgb(22, 91, 114);
+    }    
+    60% {
+        background-color: rgb(95, 226, 127);
+    }   
+    80% {
+        background-color: rgb(232, 149, 86);
+    }   
+    100% {
+        background-color: violet;
+    }
+
+
+}
+
+@-webkit-keyframes blink {
+    0% {
+        background-color: violet;
+    }
+    15% {
+        background-color: blueviolet;
+    }    
+    30% {
+        background-color: rgb(22, 91, 114);
+    }    
+    60% {
+        background-color: rgb(95, 226, 127);
+    }   
+    80% {
+        background-color: rgb(232, 149, 86);
+    }   
+    100% {
+        background-color: violet;
+    }
+ }
+
+ h1 {
+    margin-left: 690px;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+.head1{
+    margin-top: 50px;
+}
+
+.shadow{
+    margin-right: 560px;
+    margin-left: 560px;
+    box-shadow: 20px 14px 5px 5px rgb(42, 58, 68);
+}
